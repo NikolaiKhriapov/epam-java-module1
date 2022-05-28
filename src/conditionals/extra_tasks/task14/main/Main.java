@@ -1,14 +1,14 @@
-package conditionals.main_tasks.task01.main;
+package conditionals.extra_tasks.task14.main;
 
 /*
- * Задача 1. Даны два угла треугольника (в градусах). Определить, существует ли такой треугольник, и если да, то будет ли он прямоугольным.
+ * Задача 14. Даны два угла треугольника (в градусах). Определить, существует ли такой треугольник, и если да, то будет ли он прямоугольным.
  */
 
 public class Main {
 
     public static void main(String[] args) {
 	double angle1 = 30;
-	double angle2 = 6;
+	double angle2 = 60;
 
 	if (angle1 + angle2 < 180) {
 	    System.out.println("Треугольник с углами " + angle1 + "* и " + angle2 + "* существует.");
